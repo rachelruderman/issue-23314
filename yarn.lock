@@ -7,7 +7,7 @@
   "resolved" "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   "version" "1.5.0"
 
-"@cypress/request@2.88.12":
+"@cypress/request@^2.88.11":
   "integrity" "sha512-tOn+0mDZxASFM+cuAP9szGUGPI1HwWVSvdzm7V4cCsPdFTx6qMj29CwaQmRAMIEhORIUBFBsYROYJcveK4uOjA=="
   "resolved" "https://registry.npmjs.org/@cypress/request/-/request-2.88.12.tgz"
   "version" "2.88.12"
@@ -318,12 +318,12 @@
     "shebang-command" "^2.0.0"
     "which" "^2.0.1"
 
-"cypress@^12.17.4":
-  "integrity" "sha512-gAN8Pmns9MA5eCDFSDJXWKUpaL3IDd89N9TtIupjYnzLSmlpVr+ZR+vb4U/qaMp+lB6tBvAmt7504c3Z4RU5KQ=="
-  "resolved" "https://registry.npmjs.org/cypress/-/cypress-12.17.4.tgz"
-  "version" "12.17.4"
+"cypress@https://cdn.cypress.io/beta/npm/13.0.0/darwin-arm64/ryanm/feat/grab-response-bodies-from-proxy-386719e0be4d98878926cb0429beca72ae6ce97a/cypress.tgz":
+  "integrity" "sha512-B5oVvJedfcIASpY3iAzep8hij/RGZca3vZR4CTWAijs9TK7epdd6DJGWXnjiJEFD/+rz2q36WWG/MEdF2Je95g=="
+  "resolved" "https://cdn.cypress.io/beta/npm/13.0.0/darwin-arm64/ryanm/feat/grab-response-bodies-from-proxy-386719e0be4d98878926cb0429beca72ae6ce97a/cypress.tgz"
+  "version" "13.0.0"
   dependencies:
-    "@cypress/request" "2.88.12"
+    "@cypress/request" "^2.88.11"
     "@cypress/xvfb" "^1.2.4"
     "@types/node" "^16.18.39"
     "@types/sinonjs__fake-timers" "8.1.1"
@@ -358,7 +358,6 @@
     "minimist" "^1.2.8"
     "ospath" "^1.2.2"
     "pretty-bytes" "^5.6.0"
-    "process" "^0.11.10"
     "proxy-from-env" "1.0.0"
     "request-progress" "^3.0.0"
     "semver" "^7.5.3"
@@ -939,11 +938,6 @@
   "integrity" "sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg=="
   "resolved" "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-5.6.0.tgz"
   "version" "5.6.0"
-
-"process@^0.11.10":
-  "integrity" "sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A=="
-  "resolved" "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
-  "version" "0.11.10"
 
 "proxy-from-env@1.0.0":
   "integrity" "sha512-F2JHgJQ1iqwnHDcQjVBsq3n/uoaFL+iPW/eAeL7kVxy/2RrWaN4WroKjjvbsoRtv0ftelNyC01bjRhn/bhcf4A=="
