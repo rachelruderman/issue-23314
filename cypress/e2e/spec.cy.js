@@ -2,6 +2,6 @@
 
 describe('Url check', ()=>{
   it('Url load check', ()=>{
-      cy.visit('https://www.google.com')
+      cy.visit('https://www.google.com/RACHEL')
   })
 })
