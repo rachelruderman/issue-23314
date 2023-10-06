@@ -17,7 +17,7 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "https://cdn.cypress.io/beta/npm/13.0.0/darwin-arm64/ryanm/feat/grab-response-bodies-from-proxy-386719e0be4d98878926cb0429beca72ae6ce97a/cypress.tgz",
+    "cypress": "^13.3.0",
     "ok-file": "1.5.2"
   },
   "repository": {
