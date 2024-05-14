@@ -1,5 +1,5 @@
 module.exports = {
-  projectId: '3kh3vi',
+  projectId: 'uwwnpi',
   e2e: {
     setupNodeEvents(on, config) {},
     experimentalModifyObstructiveThirdPartyCode: true
