@@ -4,10 +4,4 @@ module.exports = {
     setupNodeEvents(on, config) {},
     experimentalModifyObstructiveThirdPartyCode: true,
   },
-  elementFilters: [
-    {
-      selector: ".copyright",
-      include: false,
-    },
-  ],
 };
