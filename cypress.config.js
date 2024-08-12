@@ -1,7 +1,13 @@
 module.exports = {
-  projectId: 'uwwnpi',
+  projectId: "wn5uye",
   e2e: {
     setupNodeEvents(on, config) {},
-    experimentalModifyObstructiveThirdPartyCode: true
+    experimentalModifyObstructiveThirdPartyCode: true,
   },
-}
+  elementFilters: [
+    {
+      selector: ".copyright",
+      include: false,
+    },
+  ],
+};
