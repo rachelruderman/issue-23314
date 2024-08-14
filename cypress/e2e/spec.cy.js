@@ -27,10 +27,10 @@ for (let i = 0; i < 1; i++) {
       cy.visit("https://dequeuniversity.com/");
       cy.contains("Deque University");
     });
-    // it("reddit", () => {
-    //   cy.visit("https://reddit.com");
-    //   cy.contains("Reddit");
-    // });
+    it("reddit", () => {
+      cy.visit("https://reddit.com");
+      cy.contains("Reddit");
+    });
     // it("linkedin", () => {
     //   cy.visit("https://linkedin.com");
     //   cy.contains("LinkedIn");
