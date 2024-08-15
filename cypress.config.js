@@ -1,7 +1,7 @@
 module.exports = {
-  projectId: '3kh3vi',
+  projectId: "wn5uye",
   e2e: {
     setupNodeEvents(on, config) {},
-    experimentalModifyObstructiveThirdPartyCode: true
+    experimentalModifyObstructiveThirdPartyCode: true,
   },
-}
+};
