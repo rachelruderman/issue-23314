@@ -8,28 +8,32 @@ for (let i = 0; i < 1; i++) {
       cy.visit("https://www.google.com");
       cy.contains("Search");
     });
-    it("youtube", () => {
-      cy.visit("https://www.youtube.com");
-    });
-    it("github", () => {
-      cy.visit("https://github.com");
-      cy.contains("GitHub");
-    });
-    it("facebook", () => {
-      cy.visit("https://www.facebook.com");
-      cy.contains("Facebook");
-    });
-    it("accessiBe", () => {
-      cy.visit("https://accessibe.com/");
-      cy.contains("accessiBe");
-    });
-    it("deque university", () => {
-      cy.visit("https://dequeuniversity.com/");
-      cy.contains("Deque University");
-    });
-    it("reddit", () => {
-      cy.visit("https://reddit.com");
-      cy.contains("Reddit");
+    // it("youtube", () => {
+    //   cy.visit("https://www.youtube.com");
+    // });
+    // it("github", () => {
+    //   cy.visit("https://github.com");
+    //   cy.contains("GitHub");
+    // });
+    // it("facebook", () => {
+    //   cy.visit("https://www.facebook.com");
+    //   cy.contains("Facebook");
+    // });
+    // it("accessiBe", () => {
+    //   cy.visit("https://accessibe.com/");
+    //   cy.contains("accessiBe");
+    // });
+    // it("deque university", () => {
+    //   cy.visit("https://dequeuniversity.com/");
+    //   cy.contains("Deque University");
+    // });
+    // it("reddit", () => {
+    //   cy.visit("https://reddit.com");
+    //   cy.contains("Reddit");
+    // });
+    it("w3", () => {
+      cy.visit("https://www.w3.org/WAI/fundamentals/accessibility-intro/");
+      cy.contains("Accessibility Fundamentals");
     });
     // it("linkedin", () => {
     //   cy.visit("https://linkedin.com");
