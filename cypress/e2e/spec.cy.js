@@ -31,9 +31,9 @@ for (let i = 0; i < 1; i++) {
     //   cy.visit("https://reddit.com");
     //   cy.contains("Reddit");
     // });
-    it("w3", () => {
-      cy.visit("https://www.w3.org/WAI/fundamentals/accessibility-intro/");
-      cy.contains("Accessibility Fundamentals");
+    it("userway", () => {
+      cy.visit("https://userway.org/accessibility/");
+      cy.contains("Accessibility Statement");
     });
     // it("linkedin", () => {
     //   cy.visit("https://linkedin.com");
